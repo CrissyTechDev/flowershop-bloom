@@ -92,7 +92,7 @@ const HeroSection = () => {
 
     return (
         <div className="flex flex-col items-center bg-pink-50 border-b px-4 p-5">
-            <h1 className="text-2xl pb-2">We customize Dried Flowers into Bouquet💐</h1>
+            <h1 className="text-2xl pb-2 text-center">We customize Dried Flowers into Bouquet💐</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {FlowerInformation.map((flower, index) => (
                     <div key={index} className="p-2">
